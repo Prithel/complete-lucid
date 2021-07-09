@@ -1,0 +1,508 @@
+
+
+ /* Responsive meida queries code start */
+
+/* 
+	***Most of the smart phone 
+   Resulation: 320px to 480px; 
+*/
+ @media (min-width: 320px) and (max-width: 480px){
+ 	/* code start */
+ 	.header .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+ 		    background: url(../images/border.png) left bottom no-repeat;
+ 	}
+
+
+ 	.header .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    background: url('../images/border.png') left bottom no-repeat;
+
+}
+
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+ 	
+ 	.banner {
+    padding: 40px 0px;
+	}
+
+	.banner .inner-banner{
+	width: 100%;
+	padding: 0px;
+}
+	.banner .inner-banner h1 {
+    font-size: 30px;
+   
+}
+	.banner .inner-banner p {
+    width: 100%;
+    padding: 0px;
+    font-size: 12px;
+}
+
+	.banner .inner-button {
+    margin-top: 20px;
+}
+
+.banner .inner-button .btn-primary {
+    padding: 8px 20px;
+    font-size: 12px;
+    margin-right: 15px;
+
+}
+
+.banner .inner-button .btn-secondary{
+	 padding: 8px 20px;
+    font-size: 12px;
+
+}
+.title{
+	padding: 0px 0px 20px;
+}
+
+.title h1{
+	font-size: 32px;
+}
+.feature{
+	padding: 40px 0px;
+}
+
+.inner-feature{
+	margin-bottom: -40px;
+}
+.about-long{
+	padding:  40px 0px ;
+}
+.about-long .title h1{
+	font-size: 30px;
+}
+
+.about-long p{
+	font-size: 14px;
+}
+.about-long ul li{
+	font-size: 16px;
+}
+
+.about-short{
+	padding: 0px ;
+}
+
+.about-short .title h1{
+	font-size: 30px;
+}
+
+.about-short p{
+	font-size: 14px;
+}
+
+.testimonial{
+	padding: 40px 0px;
+}
+.testimonial .owl-carousel h4{
+	font-size: 18px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots{
+	margin-top: 30px;
+}
+.feature-contact h2{
+	font-size: 28px;
+	text-align: center;
+    margin-bottom: 20px;
+}
+.fcontact-btn{
+	text-align: center;
+}
+
+.fcontact-btn .btn-secondary{
+	 padding: 8px 20px;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.fcontact-btn .btn-primary{
+	 padding: 8px 20px;
+    font-size: 12px;
+}
+.price{
+	padding: 40px 0px;
+}
+.price-inner{
+	margin-bottom: 25px;
+}
+.contact{
+	padding: 40px 0px 0px;
+}
+
+
+.contact .main-form{
+	margin-bottom: -35px;
+}
+
+ 	/* code End */
+
+ }
+ 	
+ 
+
+/* 
+	***Most of the low resulation smart phone, tab 
+   			Resulation: 481px to 767px; ***
+*/
+ @media (min-width: 481px) and (max-width: 767px){
+ 	/* code start */
+
+ 	 	.header .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+ 		    background: url(../images/border.png) left bottom no-repeat;
+ 	}
+
+
+ 	.header .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    background: url('../images/border.png') left bottom no-repeat;
+
+}
+
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+ 	
+ 	.banner {
+    padding: 40px 0px;
+	}
+
+	.banner .inner-banner{
+	width: 100%;
+	padding: 0px;
+}
+	.banner .inner-banner h1 {
+    font-size: 30px;
+   
+}
+	.banner .inner-banner p {
+    width: 100%;
+    padding: 0px;
+    font-size: 12px;
+}
+
+	.banner .inner-button {
+    margin-top: 20px;
+}
+
+.banner .inner-button .btn-primary {
+    padding: 8px 20px;
+    font-size: 12px;
+    margin-right: 15px;
+
+}
+
+.banner .inner-button .btn-secondary{
+	 padding: 8px 20px;
+    font-size: 12px;
+
+}
+.title{
+	padding: 0px 0px 20px;
+}
+
+.title h1{
+	font-size: 32px;
+}
+.feature{
+	padding: 40px 0px;
+}
+
+.inner-feature{
+	margin-bottom: -40px;
+}
+.about-long{
+	padding:  40px 0px ;
+}
+.about-long .title h1{
+	font-size: 30px;
+}
+
+.about-long p{
+	font-size: 14px;
+}
+.about-long ul li{
+	font-size: 16px;
+}
+
+.about-short{
+	padding: 0px ;
+}
+
+.about-short .title h1{
+	font-size: 30px;
+}
+
+.about-short p{
+	font-size: 14px;
+}
+
+.testimonial{
+	padding: 40px 0px;
+}
+.testimonial .owl-carousel h4{
+	font-size: 18px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots{
+	margin-top: 30px;
+}
+.feature-contact h2{
+	font-size: 28px;
+	text-align: center;
+    margin-bottom: 20px;
+}
+.fcontact-btn{
+	text-align: center;
+}
+
+.fcontact-btn .btn-secondary{
+	 padding: 8px 20px;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.fcontact-btn .btn-primary{
+	 padding: 8px 20px;
+    font-size: 12px;
+}
+.price{
+	padding: 40px 0px;
+}
+.price-inner{
+	margin-bottom: 25px;
+}
+.contact{
+	padding: 40px 0px 0px;
+}
+
+
+.contact .main-form{
+	margin-bottom: -35px;
+}
+
+
+
+
+
+ 	/* code End */
+
+ }
+ 	
+ 
+/* 
+	***Most of the Tablet, ipad, and Notebook
+   			Resulation: 768px to 992px; ***
+*/
+ @media (min-width: 768px) and (max-width: 992px){
+ 	/* code start */
+
+ 	.header .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+ 		    background: url(../images/border.png) left bottom no-repeat;
+ 	}
+
+
+ 	.header .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    background: url('../images/border.png') left bottom no-repeat;
+
+}
+
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+ 	
+ 	.banner {
+    padding: 40px 0px;
+	}
+
+	.banner .inner-banner{
+	width: 100%;
+	padding: 0px;
+}
+	.banner .inner-banner h1 {
+    font-size: 30px;
+   
+}
+	.banner .inner-banner p {
+    width: 100%;
+    padding: 0px;
+    font-size: 12px;
+}
+
+	.banner .inner-button {
+    margin-top: 20px;
+}
+
+.banner .inner-button .btn-primary {
+    padding: 8px 20px;
+    font-size: 12px;
+    margin-right: 15px;
+
+}
+
+.banner .inner-button .btn-secondary{
+	 padding: 8px 20px;
+    font-size: 14px;
+
+}
+.feature{
+	padding: 40px 0px;
+}
+
+.inner-feature{
+	margin-bottom: -40px;
+}
+
+.inner-feature h4{
+	font-size: 16px;
+	font-weight: 600;
+}
+.inner-feature p{
+	    padding: 0px;
+    font-size: 13px;
+}
+
+
+.about-long{
+	padding:  40px 0px ;
+}
+.about-long .title h1{
+	font-size: 28px;
+}
+
+.about-long p{
+	font-size: 13px;
+}
+.about-long ul li{
+	font-size: 16px;
+}
+
+.about-short{
+	padding: 0px ;
+}
+
+.about-short .title h1{
+	font-size: 25px;
+}
+
+.about-short p{
+	font-size: 14px;
+}
+
+.testimonial{
+	padding: 40px 0px;
+}
+.testimonial .title
+{
+	padding: 0px 0px 40px;
+}
+.testimonial .title h1{
+	font-size: 32px;
+}
+.testimonial .owl-carousel h4{
+	font-size: 18px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots{
+	margin-top: 30px;
+}
+.feature-contact h2{
+	font-size: 20px;
+	
+}
+.fcontact-btn{
+	text-align: right;
+}
+
+.fcontact-btn .btn-secondary{
+	 padding: 10px 15px;
+    font-size: 10px;
+    margin-right: 15px;
+}
+
+.fcontact-btn .btn-primary{
+	 padding: 10px 15px;
+    font-size: 10px;
+}
+
+.price{
+	padding: 40px 0px;
+}
+.price-inner{
+	margin-bottom: 24px;
+}
+.price-inner .price-head h2 {
+    font-size: 30px;
+}
+.price-inner .price-content{
+	padding: 35px 10px
+}
+.price-inner .price-content .price-content-btn .btn-primary{
+	font-size: 12px;
+}
+
+.contact{
+	padding: 40px 0px 0px;
+}
+.contact .title{
+	padding: 0px 0px 40px;
+}
+.contact .title h1{
+	font-size: 32px;
+}
+.contact .main-form{
+	margin-bottom: -35px;
+}
+
+.contact .main-form .btn-form .btn-primary {
+    padding: 12px 8px;
+    font-size: 12px;
+}
+.contact .main-form{
+  padding: 60px 25px;
+}
+
+ .contact .main-form .form-control{
+ 	padding: 8px;
+    font-size: 12px;
+
+ }
+ 	/* code End */
+
+ }
+
+ 
+/* 
+	***Most of the Tablet, ipad, and Notebook
+   			Resulation: 993px to 1024px; ***
+*/
+
+
+ @media (min-width: 993px) and (max-width: 1199px){
+ 	/* code start */
+.about-short .title h1 {
+    font-size: 32px;
+}
+.about-short p {
+    font-size: 14px;
+}
+
+
+.price-inner .price-content {
+    padding: 35px 35px;
+}
+
+/* code end */
+
+
+
+
+
+ /* Responsive meida queries code End */
